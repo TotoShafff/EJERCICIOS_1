@@ -1,5 +1,8 @@
-function saludo(nombre, mensaje, hora) {
-    console.log(`${mensaje}, ${nombre}. Son las ${hora}.`);
+//Función saludo usando template strings
+function saludo(nombre, mensaje) {
+    console.log(`${mensaje}, ${nombre}!`);
     }
-    
-    saludo("Tobias", "Buenas noches", "20:30 PM");
+
+// Ejemplos de uso:
+saludo("Tobias", "¡Hola"); // Resultado: ¡Hola, Tobias!
+saludo("Pepe", "¡Buen trabajo"); // Resultado: ¡Buen trabajo, Pepe!
